@@ -1,0 +1,18 @@
+Dev:
+  Engine: postgres
+  HostTag: financial
+  Host: localhost
+  User: user
+  Password: password
+  Port: 5432
+  Database: finance
+  SSL: false
+Prod:
+  Engine: postgres
+  HostTag: financial
+  Host: localhost
+  User: user
+  Password: password
+  Port: 5432
+  Database: finance
+  SSL: true
